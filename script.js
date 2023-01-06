@@ -1,9 +1,6 @@
 let featchURL = "https://api.openweathermap.org/data/2.5/weather?q="
 let cityName = '';
-let apiKey = "05017894b8b0ac83af72659f3dc9d03c"
-// a953ea1bb2aa05e480ed6c2a544d9ecc
-
-
+let apiKey = "a953ea1bb2aa05e480ed6c2a544d9ecc"
 
 document.querySelector('.serach').addEventListener('keyup', event => {
     let { keyCode, target: input } = event
